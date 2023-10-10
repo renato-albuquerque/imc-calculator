@@ -21,29 +21,33 @@
     <title>BMI Calculator</title>
 </head>
 <body>
-    <h1 class="title">BMI Calculator</h1>
-    <p class="subtitle">Body Mass Index</p>
-    <p class="portugueseSubtitle">Portuguese: IMC, Índice de Massa Corporal</p>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">BMI Calculator</h1>
+            <p class="subtitle">Body Mass Index</p>
+            <p class="portugueseSubtitle">Portuguese: IMC, Índice de Massa Corporal</p>
+        </header>
 
-    <div class="labelsInputs">
-        <div class="wrapLabelInput">
-            <label class="label">Height:</label>
-            <input class="input" type="number" placeholder="Example 1,75">
-        </div>
-        <div class="wrapLabelInput">
-            <label class="label">Weight:</label>
-            <input class="input" type="number" placeholder="Example 70,5">
-        </div>
+        <main class="main">
+            <section class="labelsInputs">
+                <div class="wrapLabelInput">
+                    <label class="label">Height:</label>
+                    <input class="input" type="number" placeholder="Example 1,75">
+                </div>
+                <div class="wrapLabelInput">
+                    <label class="label">Weight:</label>
+                    <input class="input" type="number" placeholder="Example 70,5">
+                </div>
+            </section>
+            <section class="buttons">
+                <button class="btnCalculate">Calculate</button>
+                <button class="btnClean">Clean</button>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>{ R M d A }</p>
+        </footer>
     </div>
-
-    <div class="buttons">
-        <button class="btnCalculate">Calculate</button>
-        <button class="btnClean">Clean</button>
-    </div>
-
-    <footer class="footer">
-        <p>{ R M d A }</p>
-    </footer>
-
 </body>
 </html>
