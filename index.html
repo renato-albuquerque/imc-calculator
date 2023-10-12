@@ -25,22 +25,22 @@
         <header class="header">
             <h1 class="title">BMI Calculator</h1>
             <p class="subtitle">Body Mass Index</p>
-            <p class="portugueseSubtitle">Portuguese: IMC | Índice de Massa Corporal</p>
+            <p class="portugueseSubtitle">* IMC | Índice de Massa Corporal</p>
         </header>
 
         <main class="main">
             <section class="labelsInputs">
                 <div class="wrapLabelInput">
                     <label class="label">Height:</label>
-                    <input class="input" type="number" placeholder="Example 1,75">
+                    <input class="inputHeight" type="number" placeholder="Example 1,75">
                 </div>
                 <div class="wrapLabelInput">
                     <label class="label">Weight:</label>
-                    <input class="input" type="number" placeholder="Example 70,5">
+                    <input class="inputWeight" type="number" placeholder="Example 70,5">
                 </div>
             </section>
             <section class="buttons">
-                <button class="btnCalculate">Calculate</button>
+                <button class="btnCalculate" onclick="resultPage()">Calculate</button>
                 <button class="btnClean">Clean</button>
             </section>
         </main>

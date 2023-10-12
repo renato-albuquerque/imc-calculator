@@ -57,6 +57,10 @@ body {
     text-align: center;
 }
 
+.hide {
+    display: none;
+}
+
 /* header */
 
 .header {
@@ -105,7 +109,7 @@ body {
     font-size: 1.5rem;
 }
 
-.input {
+.inputHeight, .inputWeight {
     padding: 1.5rem 1rem;
     border-radius: 0.5rem;
 }
