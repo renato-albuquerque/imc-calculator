@@ -1,18 +1,10 @@
 // variables
 
-const inputHeight = document.querySelector(".inputHeight");
-const inputWeight = document.querySelector(".inputWeight");
-const btnCalculate = document.querySelector(".btnCalculate");
-const btnClean = document.querySelector(".btnClean");
+let inputHeight = document.querySelector(".inputHeight");
+let inputWeight = document.querySelector(".inputWeight");
+
 
 // events
-
-
-
-
-
-
-
 
 
 
@@ -21,7 +13,7 @@ const btnClean = document.querySelector(".btnClean");
 function resultPage() {
     const container = document.querySelector(".container")
     container.classList.add("hide")
-
+    
     // mostrar nova tela, dos resultados, modal
     // calcular imc
     // mostrar imc, text content
