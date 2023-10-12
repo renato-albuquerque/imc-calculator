@@ -22,9 +22,9 @@ function resultPage() {
     const container = document.querySelector(".container")
     container.classList.add("hide")
 
-    // mostrar nova tela, dos resultados
+    // mostrar nova tela, dos resultados, modal
     // calcular imc
-    // mostrar imc
+    // mostrar imc, text content
 }
 
 /* function result() {
