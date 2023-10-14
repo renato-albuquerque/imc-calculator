@@ -10,13 +10,25 @@ let inputWeight = document.querySelector(".inputWeight");
 
 // functions
 
-function resultPage() {
-    const container = document.querySelector(".container")
-    container.classList.add("hide")
+function cleanValues() {
     
-    // mostrar nova tela, dos resultados, modal
+}
+
+function resultPage() {   
+    let containerOne = document.querySelector(".container-1");
+    let containerTwo = document.querySelector(".container-2");
+    containerOne.classList.add("hide");
+    containerTwo.classList.remove("hide");
+    
     // calcular imc
     // mostrar imc, text content
+}
+
+function returnPage() {
+    let containerOne = document.querySelector(".container-1");
+    let containerTwo = document.querySelector(".container-2");
+    containerTwo.classList.add("hide");
+    containerOne.classList.remove("hide");
 }
 
 /* function result() {
