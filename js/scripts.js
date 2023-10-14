@@ -1,7 +1,6 @@
 // variables
 
-let inputHeight = document.querySelector(".inputHeight");
-let inputWeight = document.querySelector(".inputWeight");
+
 
 
 // events
@@ -11,7 +10,11 @@ let inputWeight = document.querySelector(".inputWeight");
 // functions
 
 function cleanValues() {
-    
+    let inputHeight = document.querySelector(".inputHeight");
+    let inputWeight = document.querySelector(".inputWeight");
+
+    inputHeight.value = "";
+    inputWeight.value = "";
 }
 
 function resultPage() {   
