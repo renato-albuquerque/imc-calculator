@@ -1,12 +1,3 @@
-// variables
-
-
-
-
-// events
-
-
-
 // functions
 
 function cleanValues() {
@@ -34,15 +25,18 @@ function resultPage() {
 
     showBmi.textContent = bmiResult();
     showSituation.textContent = bmiSituation();
-    
-    // mostrar situation, text content
 }
 
 function returnPage() {
     let containerOne = document.querySelector(".container-1");
     let containerTwo = document.querySelector(".container-2");
+    let inputHeight = document.querySelector(".inputHeight");
+    let inputWeight = document.querySelector(".inputWeight");
+
     containerTwo.classList.add("hide");
     containerOne.classList.remove("hide");
+    inputHeight.value = "";
+    inputWeight.value = "";
 }
 
 function bmiResult() {
@@ -50,7 +44,7 @@ function bmiResult() {
     let inputWeight = document.querySelector(".inputWeight");
     let height = inputHeight.value;
     let weight = inputWeight.value;
-    
+
     return ((weight) / (height * height)).toFixed(1);    
 }
 
