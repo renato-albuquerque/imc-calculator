@@ -33,9 +33,9 @@ function resultPage() {
     }
 
     showBmi.textContent = bmiResult();
-    showSituation.textContent = "Test"
+    showSituation.textContent = bmiSituation();
     
-    // mostrar imc, text content
+    // mostrar situation, text content
 }
 
 function returnPage() {
@@ -52,5 +52,19 @@ function bmiResult() {
     let weight = inputWeight.value;
     
     return ((weight) / (height * height)).toFixed(1);    
+}
+
+function bmiSituation() {
+    if(bmiResult() < 18.5) {
+        return "Thinness"
+    } else if(bmiResult() < 25.0 ) {
+        return "Normal"
+    } else if(bmiResult() < 30.0) {
+        return "Overweight"
+    } else if(bmiResult() < 40.0) {
+        return "Obesity"
+    } else {
+        return "Severe obesity"
+    }
 }
 
