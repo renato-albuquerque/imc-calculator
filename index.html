@@ -21,7 +21,9 @@
     <title>BMI Calculator</title>
 </head>
 <body>
-    <div class="container">
+
+    <!-- first page -->
+    <div class="container-1 hide">
         <header class="header">
             <h1 class="title">BMI Calculator</h1>
             <p class="subtitle">Body Mass Index</p>
@@ -43,11 +45,27 @@
                 <button class="btnCalculate" onclick="resultPage()">Calculate</button>
                 <button class="btnClean" onclick="window.location.reload()">Clean</button>
             </section>
-
-            <section class="modal hide">
-                
-            </section>
         </main>
+        
+        <footer class="footer">
+            <p>Coded by <a href="https://rma-contacts.vercel.app/" target="_blank">Renato Albuquerque</a></p>
+            <p>Software Developer</p>
+        </footer>
+    </div>
+
+    <!-- second page (sp) -->
+    <div class="container-2">
+        <section class="wrapTitleSubtitleSp">
+            <h1 class="titleSecondPage">Your BMI: <span></span></h1>
+            <h2 class="subtitleSecondPage">Current Situation: <span></span></h2>
+        </section>
+
+        <section class="ratingInfoSp">
+            <h2 class="titleRatings">Check the Ratings</h2>
+            
+        </section>
+
+        <button class="btnReturn">Return</button>
 
         <footer class="footer">
             <p>Coded by <a href="https://rma-contacts.vercel.app/" target="_blank">Renato Albuquerque</a></p>
