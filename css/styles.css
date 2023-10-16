@@ -208,6 +208,10 @@ body {
     font-size: 1.2rem;
 }
 
+table {
+    margin: 0 auto;
+}
+
 th, td {
     padding: 0.5rem 1.5rem;
     border-bottom: 1px solid #ccc;

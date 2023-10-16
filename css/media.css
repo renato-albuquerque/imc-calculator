@@ -36,3 +36,17 @@
         width: 31.5rem;
     }
 } 
+
+/* mobile l, 425px */
+@media (min-width: 425px) {
+    .container-2 {
+        width: 36.5rem;
+    }
+}
+
+/* tablet, 768px */
+@media (min-width: 768px) {
+    .container-2 {
+        width: 45.0rem;
+    }
+}
