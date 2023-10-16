@@ -17,7 +17,7 @@ function resultPage() {
     let showSituation = document.querySelector(".subtitleSecondPage span")
     
     if((inputHeight.value == "") || (inputHeight.value == 0) || (inputWeight.value == "") || (inputWeight.value == 0)) {
-        alert("Please enter with a correct value. The values can't be empty or zero.")
+        alert("Please, both fields must be filled in. The values can't be empty or zero.")
     } else {
         containerOne.classList.add("hide");
         containerTwo.classList.remove("hide");
