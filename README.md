@@ -1,8 +1,8 @@
 # BMI Calculator | Body Mass Index
 
 Inspiration for this project: 
-Training with Matheus Battisti. In training, this same calculator was developed with React + Vite. The proposal was to recreate the project in JavaScript.
-https://github.com/renato-albuquerque/imc-calculator-react
+<br>Training with Matheus Battisti. In training, this same calculator was developed with React + Vite. The proposal was to recreate the project in JavaScript.
+<br>Source: https://github.com/renato-albuquerque/imc-calculator-react
  
 "Mobile First" project developed with HTML, CSS and JavaScript. Responsive page for all screen sizes.
  
