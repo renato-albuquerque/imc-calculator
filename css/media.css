@@ -11,3 +11,32 @@
     font-size: 62.5%;
 }
 
+/* first page */
+
+/* mobile m, 375px */
+@media (min-width: 375px) {
+    .container-1 {
+        width: 31.5rem;
+    }
+
+    .container-2 {
+        width: 31.5rem;
+    }
+} 
+
+/* ============================= */
+/* second page */
+
+/* mobile s, 320px */
+@media (min-width: 320px) {
+    .container-2 {
+        width: 29rem;
+    }
+}
+
+/* mobile m, 375px */
+@media (min-width: 375px) {
+    .container-2 {
+        width: 31.5rem;
+    }
+} 
