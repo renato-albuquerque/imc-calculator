@@ -29,12 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot]()
+![screenshot](assets/screencapture-bmi-calculator-rma-vercel-app-1.png)
+![screenshot](assets/screencapture-bmi-calculator-rma-vercel-app-2.png)
 
 ### Links
 
-- [Solution URL here]()
-- [Live Site URL here]()
+- [Solution URL here](https://github.com/renato-albuquerque/imc-calculator)
+- [Live Site URL here](https://bmi-calculator-rma.vercel.app/)
 
 ## My process
 
