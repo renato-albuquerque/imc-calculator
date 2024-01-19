@@ -13,11 +13,11 @@ function resultPage() {
     let inputWeight = document.querySelector(".inputWeight");
     let containerOne = document.querySelector(".container-1");
     let containerTwo = document.querySelector(".container-2");
-    let showBmi = document.querySelector(".titleSecondPage span")
-    let showSituation = document.querySelector(".subtitleSecondPage span")
+    let showBmi = document.querySelector(".titleSecondPage span");
+    let showSituation = document.querySelector(".subtitleSecondPage span");
     
     if((inputHeight.value == "") || (inputHeight.value == 0) || (inputWeight.value == "") || (inputWeight.value == 0)) {
-        alert("Please, both fields must be filled in. The values can't be empty or zero.")
+        alert("Please, both fields must be filled in. The values can't be empty or zero.");
     } else {
         containerOne.classList.add("hide");
         containerTwo.classList.remove("hide");
@@ -27,18 +27,7 @@ function resultPage() {
     showSituation.textContent = bmiSituation();
 }
 
-function returnPage() {
-    let containerOne = document.querySelector(".container-1");
-    let containerTwo = document.querySelector(".container-2");
-    let inputHeight = document.querySelector(".inputHeight");
-    let inputWeight = document.querySelector(".inputWeight");
-
-    containerTwo.classList.add("hide");
-    containerOne.classList.remove("hide");
-    inputHeight.value = "";
-    inputWeight.value = "";
-}
-
+// BMI calculation
 function bmiResult() {
     let inputHeight = document.querySelector(".inputHeight");
     let inputWeight = document.querySelector(".inputWeight");
@@ -62,3 +51,14 @@ function bmiSituation() {
     }
 }
 
+function returnPage() {
+    let containerOne = document.querySelector(".container-1");
+    let containerTwo = document.querySelector(".container-2");
+    let inputHeight = document.querySelector(".inputHeight");
+    let inputWeight = document.querySelector(".inputWeight");
+
+    containerTwo.classList.add("hide");
+    containerOne.classList.remove("hide");
+    inputHeight.value = "";
+    inputWeight.value = "";
+}
